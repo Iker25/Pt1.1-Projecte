@@ -13,7 +13,7 @@ def paraulesBoges(frase):
             fraseBoga += paraula + " "
     return fraseBoga
 
-frase = input("Introdueix una frase: ")
+frase = input("Posa una frase: ")
 
 print(paraulesBoges(frase))
 
