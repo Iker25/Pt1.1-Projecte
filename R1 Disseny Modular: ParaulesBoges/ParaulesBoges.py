@@ -17,7 +17,7 @@ def paraulesBoges(frase):
             frase = substituirParaula(frase, paraula, paraulaBoga)
     return frase
 
-frase = input("Introdueix una frase: ")
+frase = input("Posa una frase: ")
 print(paraulesBoges(frase))
 
 
