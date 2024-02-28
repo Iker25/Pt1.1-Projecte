@@ -12,7 +12,7 @@ def substituirParaula(frase, paraula, paraulaBoga):
 def paraulesBoges(frase):
     paraules = re.findall(r'\b\w+\b', frase)
     for paraula in paraules:
-        if len(paraula) > 2:
+        if len(paraula) > 2 and not paraula.isdigit():
             paraulaBoga = invertirParaula(paraula)
             frase = substituirParaula(frase, paraula, paraulaBoga)
     return frase
